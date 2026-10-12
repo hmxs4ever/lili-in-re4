@@ -1,0 +1,14 @@
+{
+  "character": [
+    {
+      "id": "lili",
+      "name": "Lili de Rochefort",
+      "source_game": "custom-tekken-8",
+      "role": "playable_replacement",
+      "replaces": "Leon",
+      "assets_read_from": "{game:custom-tekken-8}",
+      "visual_status": "detection_only_for_v1",
+      "combat_style": "tekken_melee_boost"
+    }
+  ]
+}

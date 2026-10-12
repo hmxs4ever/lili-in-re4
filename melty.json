@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "mode": "installed",
+  "games": [
+    {"slug": "resident-evil-4", "role": "primary"},
+    {"slug": "custom-tekken-8", "role": "companion"}
+  ],
+  "components": [
+    {"id": "main", "fileName": "lili-in-re4-*.zip", "label": "Main files", "kind": "main", "required": true}
+  ],
+  "requirements": [{"kind": "loader", "id": "reframework"}],
+  "mappings": [{"component": "main", "from": "reframework/", "to": "{game}/reframework"}],
+  "launch": {"kind": "game", "env": {"GAME_CUSTOM_TEKKEN_8": "{game:custom-tekken-8}"}}
+}

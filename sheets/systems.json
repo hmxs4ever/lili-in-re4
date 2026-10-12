@@ -1,0 +1,32 @@
+{
+  "systems": [
+    {
+      "id": "lili_mode",
+      "name": "Lili Mode Toggle",
+      "description": "Enables Tekken-style melee enhancements for the player as Lili",
+      "enabled_by_default": true,
+      "requires_companion": "custom-tekken-8",
+      "host": "resident-evil-4"
+    },
+    {
+      "id": "melee_boost",
+      "name": "Melee Damage Boost",
+      "description": "Increases melee attack damage to feel more like Tekken combos",
+      "multiplier": 2.5,
+      "enabled": true
+    },
+    {
+      "id": "agility",
+      "name": "Agile Movement",
+      "description": "Slightly faster movement and recovery for Lili feel",
+      "speed_mult": 1.15,
+      "enabled": true
+    },
+    {
+      "id": "tekken_detect",
+      "name": "Tekken Folder Detection",
+      "description": "Checks companion Tekken 8 install for Lili assets and logs presence",
+      "log_on_start": true
+    }
+  ]
+}
